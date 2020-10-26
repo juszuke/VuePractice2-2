@@ -25,26 +25,20 @@
         </router-link>
       </button>
       <button class="button is-primary is-medium">
-        <!-- <router-link to="step4"> -->
+        <router-link to="step4">
           <span>次へ進む</span>
           <span class="icon">
             <i class="fa fa-angle-right"></i>
           </span>
-        <!-- </router-link> -->
+        </router-link>
       </button>
     </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'Step3',
-  // components: {
-  //   HelloWorld
-  // },
   computed: {
     consultation: {
       get () {

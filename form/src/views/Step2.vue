@@ -66,14 +66,8 @@
 
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'Step2',
-  // components: {
-  //   HelloWorld
-  // },
   computed: {
     haveInsurance: {
       get () {
