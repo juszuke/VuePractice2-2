@@ -19,6 +19,11 @@ const routes = [
     name: 'Step3',
     component: () => import(/* webpackChunkName: "step3" */ './views/Step3.vue')
   },
+  {
+    path: '/step4',
+    name: 'Step4',
+    component: () => import(/* webpackChunkName: "step4" */ './views/Step4.vue')
+  },
 ]
 
 const router = new VueRouter({
